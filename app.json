@@ -21,6 +21,15 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "7d796174-1286-4b8c-a834-899cc0ede099"
+      }
+    },
+    "android": {
+      "package": "com.sirjani.myapp"
     }
   }
 }
