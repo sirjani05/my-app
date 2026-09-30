@@ -1,0 +1,32 @@
+# Files that must never be uploaded to EAS Build servers.
+# Keep this list as a safety net even though the project is its own git repo,
+# because EAS walks the filesystem and can otherwise pick up caches and sockets.
+
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Native build artifacts
+/ios
+/android
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro / build caches
+.metro-health-check*
+*.tsbuildinfo
+
+# Local env files
+.env*.local
+
+# VCS metadata
+.git/
+
+# OS noise
+.DS_Store
+*.pem
